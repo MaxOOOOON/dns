@@ -85,9 +85,9 @@
 Проверка:
 
 
-1й клиент
-![]()  
+1й клиент       
+![](https://github.com/MaxOOOOON/dns/blob/main/pictures/Screenshot_20211024_125302.png)  
 
 
-2й клиент
-![]()  
+2й клиент       
+![](https://github.com/MaxOOOOON/dns/blob/main/pictures/Screenshot_20211024_125317.png)  
