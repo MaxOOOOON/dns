@@ -27,14 +27,24 @@
       owner: root
       group: named
       mode: 0640
+
   - name: copy zones
     copy: 
       src: dns-zones/
-      dest: /etc/named/
+      dest: /var/named/data/
       owner: root
       group: named
       mode: 0660
   #    remote_src: true
+
+  - name: copy dynamic zones
+    copy: 
+      src: dns-zones/named.ddns.lab
+      dest: /var/named/dynamic/named.ddns.lab
+      owner: root
+      group: named
+      mode: 0660
+
 
 
 
